@@ -1,32 +1,8 @@
-.square, .oval, .circle, .triangle{
-    margin: 50px;
-    box-sizing: border-box;
-}
-.square{
-    border-radius: 16px;
-    background-color: forestgreen;
-    width: 100px;
-    height: 50px;
-}
-.oval{
-    width: 100px;
-    height: 50px;
-    background-color: darkmagenta;
-    border-radius: 50%;
-}
-.circle{
-    width: 100px;
-    height: 100px;
-    background-color: aquamarine;
-    border-radius: 50%;
-}
-.triangle{
-    width: 100px;
-    height: 100px;
-    background-color: transparent;
-    border: 50px solid transparent;
-    border-top: 50px solid brown;
-
+.content{
+    border: 3px solid black;
+    padding: 50px;
+    background-color: aqua;
+    margin-bottom: 50px;
 }
 
 
