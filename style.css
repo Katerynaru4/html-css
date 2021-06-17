@@ -1,17 +1,44 @@
-.blue, .yellow, .green, .pink{
-    border: 2px solid black;
+.square, .oval, .circle, .triangle{
     margin: 50px;
+    box-sizing: border-box;
 }
-.blue{
-    background-color: blue;
+.square{
+    border-radius: 16px;
+    background-color: forestgreen;
+    width: 100px;
+    height: 50px;
 }
-.yellow{
-    background-color: yellow;
+.oval{
+    width: 100px;
+    height: 50px;
+    background-color: darkmagenta;
+    border-radius: 50%;
 }
-.green{
-    background-color: green;
-}
-.pink{
-    background-color: pink;
+.circle{
+    width: 100px;
     height: 100px;
+    background-color: aquamarine;
+    border-radius: 50%;
 }
+.triangle{
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    border: 50px solid transparent;
+    border-top: 50px solid brown;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
