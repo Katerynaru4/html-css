@@ -1,7 +1,9 @@
 div {
   padding: 16px;
 }
-
+html {
+  line-height: normal;
+}
 .child,
 .parent {
   border: 2px solid black;
