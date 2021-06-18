@@ -5,9 +5,8 @@ header {
   display: flex;
   margin: 0 auto;
 }
-.main {
+.articles-list {
   display: flex;
-  flex-direction: column;
   flex-wrap: wrap;
 }
 .article {
@@ -16,4 +15,5 @@ header {
   background-color: bisque;
   flex-basis: 300px;
   flex-grow: 1;
+  flex-shrink: 0;
 }
