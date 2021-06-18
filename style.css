@@ -1,9 +1,7 @@
 div {
   padding: 16px;
 }
-html {
-  line-height: normal;
-}
+
 .child,
 .parent {
   border: 2px solid black;
@@ -43,22 +41,22 @@ html {
   height: 2000px;
 }
 .static-parent {
-    position: static;
+  position: static;
 }
 .relative-parent {
-    position: relative;
-    top: 20px;
-    left: 50px;
+  position: relative;
+  top: 20px;
+  left: 50px;
 }
 .absolute-parent {
-    position: absolute;
-    bottom: 20px;
-    right: 50px;
+  position: absolute;
+  bottom: 20px;
+  right: 50px;
 }
 .fixed-parent {
-    position: fixed;
-    bottom: 20px;
-    left: 30px;
+  position: fixed;
+  bottom: 20px;
+  left: 30px;
 }
 
 
