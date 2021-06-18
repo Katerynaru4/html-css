@@ -1,6 +1,4 @@
-* {
-  box-sizing: border-box;
-}
+
 .horizontal {
   height: 50px;
   display: flex;
