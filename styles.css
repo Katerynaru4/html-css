@@ -1,23 +1,47 @@
 * {
   box-sizing: border-box;
 }
-.articles {
-  display: flex;
-}
-.articles > div {
-  height: 100px;
-  width: 150px;
-  background-color: beige;
+.dropdown {
   margin: 16px;
+  position: relative;
 }
-.cropped {
-  overflow: hidden;
+.menu-button {
+  padding: 16px;
+  background-color: darkgreen;
+  opacity: 0.8;
+  font-size: 16px;
+  color: white;
 }
-.both-scrolls {
-  overflow: scroll;
-  cursor: all-scroll;
+.menu-button:hover {
+  cursor: pointer;
+  opacity: 1;
 }
-.vertical-scroll {
-  overflow-y: auto;
-  cursor: all-scroll;
+.dropdown:hover .menu-list{
+  display: inline-block;
+  cursor: pointer;
 }
+.menu-list {
+  position: absolute;
+  top: 34px;
+  left: 0;
+  display: none;
+  margin: 0;
+  padding: 0;
+  background-color: lightcyan;
+  color: black;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+  min-width: 120px;
+  z-index: 1;
+}
+.menu-item {
+  padding: 16px;
+  list-style-type: none;
+}
+.menu-item:hover{
+  background-color: ghostwhite;
+}
+
+
+
+
+
