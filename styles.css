@@ -1,9 +1,23 @@
 * {
   box-sizing: border-box;
 }
-.not-displayed {
-  display: none;
+.articles {
+  display: flex;
 }
-.hidden {
-  visibility: hidden;
+.articles > div {
+  height: 100px;
+  width: 150px;
+  background-color: beige;
+  margin: 16px;
+}
+.cropped {
+  overflow: hidden;
+}
+.both-scrolls {
+  overflow: scroll;
+  cursor: all-scroll;
+}
+.vertical-scroll {
+  overflow-y: auto;
+  cursor: all-scroll;
 }
