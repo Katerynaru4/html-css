@@ -4,6 +4,8 @@
 .dropdown {
   margin: 16px;
   position: relative;
+  display: inline-block;
+  top: 16px;
 }
 .menu-button {
   padding: 16px;
