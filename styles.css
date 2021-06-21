@@ -2,9 +2,9 @@
   box-sizing: border-box;
 }
 .form {
-  display: inline-block;
+  display: block;
   margin: 32px;
 }
-input {
+.form-control {
   margin: 8px;
 }
