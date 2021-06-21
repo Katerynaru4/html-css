@@ -1,37 +1,20 @@
 * {
   box-sizing: border-box;
 }
-table {
-  margin: 16px;
-  border: 1px solid black;
-  border-collapse: collapse;
+.row {
+  display: flex;
 }
-td {
-  width: 50px;
-  height: 50px;
-  border: 1px solid black;
-  text-align: center;
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
 }
-tr:nth-child(2n) td:nth-child(2n + 1) {
-  background-color: black;
+.small-bird {
+  width: 64px;
+  height: 64px;
 }
-tr:nth-child(2n + 1) td:nth-child(2n) {
-  background-color: black;
-}
-tr:nth-child(1) td {
-  border: none;
-  background-color: white !important;
-}
-
-tr:nth-child(10) td {
-  background-color: white !important;
-  border: none;
-}
-tr > td:nth-child(1) {
-  background-color: white !important;
-  border: none;
-}
-tr > td:nth-child(10) {
-  background-color: white !important;
-  border: none;
+.large-bird {
+  width: 320px;
+  height: 320px;
 }
