@@ -1,22 +1,36 @@
 * {
   box-sizing: border-box;
 }
-body {
+.container {
+  margin: 32px;
+}
+.rect {
+  margin-bottom: 16px;
+  background-color: coral;
+  width: 100px;
+  height: 100px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.5;
 }
-.fa-battery-full {
-  font-size: 16px;
+.rect:hover {
+  transition: width 2s, opacity 0.5s;
+  width: 100%;
+  opacity: 1;
 }
-.fa-battery-three-quarters {
-  font-size: 32px;
+.linear {
+  transition-timing-function: linear;
 }
-.fa-battery-half {
-  font-size: 64px;
+.ease {
+  transition-timing-function: ease;
 }
-.fa-battery-quarter {
-  font-size: 128px;
+.ease-in {
+  transition-timing-function: ease-in;
 }
-.fa-battery-empty {
-  font-size: 256px;
+.ease-out {
+  transition-timing-function: ease-out;
+}
+.ease-in-out {
+  transition-timing-function: ease-in-out;
 }
