@@ -4,3 +4,6 @@
 div {
   margin: 16px;
 }
+.choose-gender label {
+  margin-left: -4px;
+}
