@@ -4,6 +4,7 @@
 div {
   margin: 16px;
 }
-.choose-gender label, .checkbox label {
+.choose-gender label,
+.checkbox label {
   margin-left: -5px;
 }
