@@ -12,10 +12,11 @@
   text-transform: uppercase;
   font-family: 'Courier New', Courier, monospace;
   font-weight: 700;
-  bottom: none;
+  border: none;
   outline: none;
   cursor: pointer;
 }
+
 .btn:hover {
   color: darkcyan;
 }
