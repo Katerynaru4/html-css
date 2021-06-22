@@ -1,51 +1,59 @@
 * {
   box-sizing: border-box;
 }
-@keyframes move {
+@keyframes blinking {
   0% {
-    transform: translateY(0);
+    opacity: 0;
   }
   50% {
-    transform: translateY(-40px);
+    opacity: 1;
   }
-
   100% {
-    transform: translateY(0px);
+    opacity: 0;
   }
 }
-@keyframes spin {
-  from {
-    transform: rotate(0);
+@keyframes rotating {
+  0% {
+    border: 4px solid lightgrey;
+    border-top: 4px solid black;
   }
-  to {
-    transform: rotate(360deg);
+  25% {
+    border: 4px solid lightgrey;
+    border-right: 4px solid black;
+  }
+  50% {
+    border: 4px solid lightgrey;
+    border-bottom: 4px solid black;
+  }
+  75% {
+    border: 4px solid lightgrey;
+    border-left: 4px solid black;
+  }
+  100% {
+    border: 4px solid lightgrey;
+    border-top: 4px solid black;
   }
 }
-@keyframes hide {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(2000px);
-  }
-}
-
-body {
+.container {
   display: flex;
   height: 100vh;
 }
-.fancy-button {
+.spinner {
   margin: auto;
-  width: 150px;
-  height: 50px;
-  border-radius: 4px;
-  background-image: linear-gradient(45deg, yellow, red);
-  animation: move 0.5s ease-in-out 0.4s, spin 0.5s ease-in-out, hide 1s ease 2s forwards;    
 }
-button {
-  border: none;
+.circle {
+  margin: auto;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 4px solid lightgrey;
+  border-top: 4px solid black;
+  margin-bottom: 8px;
+  animation: blinking 2s linear infinite, rotating 2s linear infinite;
+}
+.spinner-text {
+  font-family: monospace;
+  font-size: 16px;
   text-transform: uppercase;
-  color: white;
-  font-weight: 700;
-  font-family: Arial, Helvetica, sans-serif;
+  animation: blinking 2s linear infinite;
 }
