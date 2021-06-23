@@ -71,7 +71,7 @@ a {
   text-align: center;
 }
 .section p {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 .units-list {
   line-height: 1.75em;
@@ -93,8 +93,7 @@ a {
   max-width: 100%;
   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
 }
-.main-info {
-}
+
 @media screen and (min-width: 600px) and (max-width: 900px) {
   .main-info {
     display: flex;
@@ -120,9 +119,6 @@ a {
   .section,
   .news {
     width: 100%;
-  }
-  .section {
-    padding: 0.5rem;
   }
 }
 @media screen and (min-width: 900px) {
