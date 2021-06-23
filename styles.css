@@ -6,7 +6,7 @@ html {
   color: #555;
   font-size: 16px;
 }
-.wrapper {
+body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
