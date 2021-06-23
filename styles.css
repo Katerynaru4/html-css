@@ -22,7 +22,6 @@ html {
   display: flex;
 }
 .navigation {
-  display: flex;
   padding: 0.5em;
 }
 .section {
