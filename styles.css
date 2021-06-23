@@ -69,6 +69,7 @@ a {
 .section__header {
   font-size: 5vw;
   text-align: center;
+  margin-top: 0;
 }
 .section p {
     margin-bottom: 0;
