@@ -24,7 +24,7 @@ html {
   display: flex;
 }
 .navigation,
-section,
+.section,
 .news {
   padding: 0.5rem;
 }
