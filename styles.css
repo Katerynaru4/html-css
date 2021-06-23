@@ -83,10 +83,8 @@ a {
 
 @media screen and (min-width: 600px) and (max-width: 900px) {
   .main {
-    flex-direction: column;
-  }
-  .main-info {
-    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
   .navigation {
     width: 20%;
@@ -99,15 +97,11 @@ a {
   .main {
     flex-direction: row;
   }
-  .main-info {
-    display: flex;
-    width: 80%;
-  }
   .navigation {
-    width: 25%;
+    width: 20%;
   }
   .section {
-    width: 75%;
+    width: 60%;
   }
   .news {
     width: 20%;
