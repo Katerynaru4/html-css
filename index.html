@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Breakpoints</title>
+    <title>Responsive images</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
@@ -14,17 +14,45 @@
   </head>
   <body>
     <div class="container">
-      <div class="products">
-        <div class="navigation">
-          <span class="text">Navigation</span>
-        </div>
-        <div class="products-list">
-          <span class="text">Products List</span>
-        </div>
-      </div>
-      <div class="news">
-        <span class="text">News</span>
-      </div>
+      <picture>
+        <source
+          srcset="
+            https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson22/task3/small.jpg
+          "
+          media="(max-width: 600px)"
+        />
+        <source
+          srcset="
+            https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson22/task3/big.jpeg
+          "
+        />
+        <img
+          srcset="
+            https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson22/task3/big.jpeg
+          "
+          alt="tree in field"
+        />
+      </picture>
     </div>
   </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
