@@ -9,9 +9,12 @@ body {
   height: 100vh;
 }
 
-@media screen and (orientation: landscape) {
+.container {
+  display: flex;
+}
+@media screen and (orientation: portrait) {
   .container {
-    display: flex;
+    flex-direction: column;
   }
 }
 

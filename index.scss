@@ -10,8 +10,9 @@ body {
   height: 100vh;
 }
 .container {
-  @include for-landscape {
-    display: flex;
+  display: flex;
+  @include for-portrait {
+    flex-direction: column;
   }
 }
 .square {
